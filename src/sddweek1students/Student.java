@@ -20,7 +20,13 @@ package sddweek1students;
  * @author Seby
  */
 public class Student {
+
+    /**
+     * @return the ID
+     */
+    
     private String name;
+    private int ID;
     
     //Constructors
     Student(String name){
@@ -33,5 +39,12 @@ public class Student {
     //Mutators/Setters
     public void setName(String name){
         this.name=name;
+    }
+    public int getID() {
+        return ID;
+    }
+    
+    public void setID(int ID) {
+        this.ID = ID;
     }
 }
