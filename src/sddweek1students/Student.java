@@ -22,8 +22,6 @@ package sddweek1students;
 public class Student {
 
 
-     * @return the ID
-     */
     
     private String name;
     private int ID;
