@@ -17,7 +17,7 @@ package sddweek1students;
 
 /**
  *
- * @author Seby
+ * @author Seby Date. 24th Jan, 2019
  */
 public class SDDWeek1Students {
 
