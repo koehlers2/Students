@@ -21,12 +21,13 @@ package sddweek1students;
  */
 public class Student {
 
-    /**
+
      * @return the ID
      */
     
     private String name;
     private int ID;
+    private int maxCourses;
     
     //Constructors
     Student(String name){
@@ -47,4 +48,14 @@ public class Student {
     public void setID(int ID) {
         this.ID = ID;
     }
+       
+    private int getMaxCourses() {
+        return maxCourses;
+    }
+
+    
+    private void setMaxCourses(int maxCourses) {
+        this.maxCourses = maxCourses;
+    }
+
 }
